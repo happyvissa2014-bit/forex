@@ -1,3 +1,6 @@
-from .adapter import hedge_analysis
+from __future__ import annotations
 
-__all__ = ["hedge_analysis"]
+from .adapter import hedge_analysis
+from .hedge_engine_module import HedgeEngine
+
+__all__ = ["hedge_analysis", "HedgeEngine"]

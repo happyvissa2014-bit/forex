@@ -6,11 +6,11 @@ from app.brain.fsm import FsmBrainAgent
 from app.core.config import get_settings
 from app.core.models import FsmState, RobotState, RobotStatus, WinnerGene
 from app.core.state_store import GeneStore, JsonStateStore
-from app.execution.order_router import ExecutionAdapterAgent
-from app.guard.risk_guard import RiskGuardAgent
-from app.market.mock_market import MockMarketDataAgent
-from app.optimization.gene_search import BacktestOptimizationAgent
-from app.strategy.hedge_engine import HedgeEngine
+from backend.app.skills.execution_engine import ExecutionAdapterAgent
+from backend.app.skills.risk_engine import RiskGuardAgent
+from backend.app.skills.market_analysis import MockMarketDataAgent
+from backend.app.skills.optimization_engine import BacktestOptimizationAgent
+from backend.app.skills.hedge_engine import HedgeEngine
 from governance.governance_manager import GovernanceManager
 from evolution.manager import EvolutionManager
 from backend.app.memory.memory_manager import MemoryManager

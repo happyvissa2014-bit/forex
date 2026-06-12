@@ -15,7 +15,7 @@ from app.core.runtime import (
 )
 from hooks.schemas import HookContext
 from app.core.runtime import evolution_agent
-from app.strategy.grid_math import calculate_grid
+from backend.app.skills.setup_detection import calculate_grid
 
 router = APIRouter(prefix="/api/v1/fsm", tags=["fsm"])
 settings = get_settings()

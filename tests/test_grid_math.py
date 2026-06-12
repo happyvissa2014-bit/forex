@@ -1,4 +1,4 @@
-from app.strategy.grid_math import calculate_grid
+from backend.app.skills.setup_detection import calculate_grid
 
 
 def test_grid_math_levels():

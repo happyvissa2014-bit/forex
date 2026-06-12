@@ -4,7 +4,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 
 from app.core.config import get_settings
-from app.strategy.grid_math import calculate_grid
+from backend.app.skills.setup_detection import calculate_grid
 
 router = APIRouter(prefix="/api/v1/grid", tags=["grid"])
 settings = get_settings()

@@ -1,6 +1,6 @@
 from app.core.config import Settings
 from app.core.models import MarketTick, RobotState
-from app.guard.risk_guard import RiskGuardAgent
+from backend.app.skills.risk_engine import RiskGuardAgent
 
 
 def test_risk_guard_blocks_drawdown():
