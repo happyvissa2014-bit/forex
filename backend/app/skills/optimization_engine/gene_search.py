@@ -1,7 +1,7 @@
 """Gene search and optimization logic for the optimization_engine skill."""
 from __future__ import annotations
 
-from skills.shared.optimizer import run_optimization
+from backend.app.skills.shared.optimizer import run_optimization
 
 
 class BacktestOptimizer:

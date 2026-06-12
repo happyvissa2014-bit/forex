@@ -1,0 +1,13 @@
+{
+  "name": "journal_engine",
+  "version": "0.1.0",
+  "author": "",
+  "description": "Central trading journal for recording, analyzing, and learning from trades.",
+  "interface": {
+    "programmatic": ["JournalEngine"],
+    "adapter": {
+      "input": ["trade_data", "evidence"],
+      "output": ["journal_entry", "insights", "patterns"]
+    }
+  }
+}

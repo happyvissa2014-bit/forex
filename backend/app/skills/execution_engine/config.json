@@ -1,5 +1,5 @@
 {
-  "name": "execution-engine",
+  "name": "execution_engine",
   "version": "0.1.0",
   "author": "",
   "description": "Order routing and execution orchestration skill.",

@@ -14,7 +14,7 @@ from app.strategy.hedge_engine import HedgeEngine
 from governance.governance_manager import GovernanceManager
 from evolution.manager import EvolutionManager
 from backend.app.memory.memory_manager import MemoryManager
-from skills.shared.memory import list_winner_genes, promote_gene, remember_gene
+from backend.app.skills.shared.memory import list_winner_genes, promote_gene, remember_gene
 from identity.identity_manager import IdentityManager
 from enterprise_graph import EnterpriseGraphManager
 

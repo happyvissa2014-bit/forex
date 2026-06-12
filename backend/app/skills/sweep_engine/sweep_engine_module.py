@@ -6,7 +6,7 @@ issuing close orders.
 from __future__ import annotations
 
 from app.core.models import Order, RobotState
-from skills.shared.sweep import detect_orphans, sweep_orders
+from backend.app.skills.shared.sweep import detect_orphans, sweep_orders
 
 
 class SweepEngine:

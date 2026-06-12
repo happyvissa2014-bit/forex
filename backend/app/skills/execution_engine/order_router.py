@@ -10,7 +10,7 @@ from pathlib import Path
 
 from app.core.config import Settings
 from app.core.models import Order, OrderStatus
-from skills.execution.adapter import build_broker_order_id, determine_order_status
+from backend.app.skills.execution.adapter import build_broker_order_id, determine_order_status
 
 
 class ExecutionEngine:

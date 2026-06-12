@@ -1,5 +1,5 @@
 {
-  "name": "optimization-engine",
+  "name": "optimization_engine",
   "version": "0.1.0",
   "author": "",
   "description": "Parameter optimization and gene search skill.",

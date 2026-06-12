@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from app.core.models import FsmState, RiskDecision, RobotState, RobotStatus
-from skills.shared.fsm import determine_next_state
+from backend.app.skills.shared.fsm import determine_next_state
 
 
 class FsmBrainAgent:

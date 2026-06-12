@@ -1,5 +1,5 @@
 {
-  "name": "risk-engine",
+  "name": "risk_engine",
   "version": "0.1.0",
   "author": "",
   "description": "Risk evaluation skill for guard logic.",

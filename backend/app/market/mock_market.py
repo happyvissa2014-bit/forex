@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from app.core.models import MarketTick
-from skills.shared.mock_market import generate_tick, validate_independent_source
+from backend.app.skills.shared.mock_market import generate_tick, validate_independent_source
 
 
 class MockMarketDataAgent:
